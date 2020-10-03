@@ -1,0 +1,1 @@
+The purpose of this project is to apply coding skills to picking up low-level scripting skills in Git-Bash terminal using the text editor nano.
