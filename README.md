@@ -5,3 +5,6 @@ The purpose of this project is to apply coding skills to picking up low-level sc
 - 10. Simple Backup Bash Shell Script:
 	- I was able to do the simple ls command to backup hello-world.
 	- I was unable to run backup.sh.
+- 11. Variables:
+	- was able to execute welcome.sh properly.
+	- was unable to execute backup.sh properly, but was able to show the output status.
