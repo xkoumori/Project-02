@@ -2,6 +2,7 @@
 
 # This bash script is used to backup my Project-02 directory /tmp/.
 
+function backup {
 if [ -z $1 ]; then
 	user=$(whoami)
 else
@@ -12,8 +13,8 @@ else
 	user=$1
 fi
 
-input=/c/Users/$user/Desktop/Project-02
-output=/tmp/${user}_home_$(date +%Y-%m-%d_%H%M%S).tar.gz
+	input=/c/Users/$user/Desktop/Project-02
+	output=/tmp/${user}_home_$(date +%Y-%m-%d_%H%M%S).tar.gz
 
 #The function total_files reports a total number of files for a given directory.
 function total_files {
@@ -38,6 +39,7 @@ src_directories=$( total_directories $input )
 arch_files=$( total_archived_files $output )
 arch_directories=$( total_archived_directories $output )
 
+echo "########## $user ##########"
 echo "Files to be included: $src_files"
 echo "Directories to be included: $src_directories"
 echo "Files archived: $arch_files"
@@ -50,3 +52,8 @@ if [ $src_files -eq $arch_files ]; then
 else
 	echo "Backup of $input failed!"
 fi
+}
+
+for directory in $*; do
+	backup $directory
+done;
