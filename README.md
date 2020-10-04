@@ -4,7 +4,7 @@ The purpose of this project is to apply coding skills to picking up low-level sc
 - Used nano instead of vi for all of my shell files.
 - 10. Simple Backup Bash Shell Script:
 	- I was able to do the simple ls command to backup hello-world.
-	- I was unable to run backup.sh.
+	- I was able to run backup.sh.
 - 11. Variables:
 	- was able to execute welcome.sh properly.
-	- was unable to execute backup.sh properly, but was able to show the output status.
+	- was able to execute backup.sh properly.

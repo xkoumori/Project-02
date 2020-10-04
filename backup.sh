@@ -3,7 +3,7 @@
 # This bash script is used to backup a user's home directory to /tmp/.
 
 user=$(whoami)
-input=/home/$user
+input=/c/Users/$user
 output=/tmp/${user}_home_$(date +%Y-%m-%d_%H%M%S).tar.gz
 
 tar -czf $output $input 2> /dev/null
