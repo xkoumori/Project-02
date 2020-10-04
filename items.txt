@@ -1,3 +1,9 @@
-bash
-scripting
-tutorial
+0_xvz
+backup.sh
+compare.sh
+date.sh
+file1.txt
+foobar
+fucntion.sh
+hello-world.sh
+items.txt
