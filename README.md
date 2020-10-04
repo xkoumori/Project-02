@@ -8,7 +8,8 @@ The purpose of this project is to apply coding skills to picking up low-level sc
 - Variables:
 	- was able to execute welcome.sh properly.
 	- was unable to execute backup.sh properly.
-- Functions were executed properly, except for backup.sh.
-- Numeric and String Comparisons were executed properly.
-- Conditional Statements were executed properly, except for backup.sh.
-- Positional Parameters were executed properly, but backup.sh came back as a failed backup.
+- Functions was executed properly, except for backup.sh.
+- Numeric and String Comparisons was executed properly.
+- Conditional Statements was executed properly, except for backup.sh.
+- Positional Parameters was executed properly, but backup.sh came back as a failed backup.
+- For Loop was executed properly.
