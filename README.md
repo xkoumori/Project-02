@@ -8,3 +8,5 @@ The purpose of this project is to apply coding skills to picking up low-level sc
 - 11. Variables:
 	- was able to execute welcome.sh properly.
 	- was able to execute backup.sh properly.
+- Functions were executed properly.
+- Numeric and String Comparisons were executed properly.
