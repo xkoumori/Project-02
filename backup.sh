@@ -1,14 +1,23 @@
 #!/usr/bin/bash
 
-# This bash script is used to backup a user's home directory to /tmp/.
+# This bash script is used to backup my Project-02 directory /tmp/.
 
-user=$(whoami)
-input=/c/Users/$user
+if [ -z $1 ]; then
+	user=$(whoami)
+else
+	if [ ! -d "/c/Users/$1/Desktop/Project-02" ]; then
+		echo "Request $1 user Project-02 directory doesn't exist."
+		exit 1
+	fi
+	user=$1
+fi
+
+input=/c/Users/$user/Desktop/Project-02
 output=/tmp/${user}_home_$(date +%Y-%m-%d_%H%M%S).tar.gz
 
 #The function total_files reports a total number of files for a given directory.
 function total_files {
-	find $1 -type d | wc -l
+	find $1 -type f | wc -l
 }
 
 #The function total_directories reports a total number of directories
