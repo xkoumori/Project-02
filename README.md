@@ -22,3 +22,7 @@ Sent out an email to Git Hub link to my partner as well around 9:30 am on Oct. 4
 - While Loop was executed properly.
 - Until loop was executed properly, but backup.sh wasn't working properly.
 	- backup.sh came back as a failed backup, and shows that total_archived_files command was not found.
+
+Code Review (Dylan)
+Your code was done very well. it is formatted in a way that is easy to read. All of your indents, spaces, and brackets were well done. I did not see any errors in your code while reviewing it. 
+It looks like you are missing the "for" code block. That is the only negative aspect about your code, everything lese looked fine to me.
